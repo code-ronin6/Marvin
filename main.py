@@ -16,7 +16,7 @@ wd = dt.date.weekday(date)
 print("Marvin is working...")
 
 def main():
-    token = "874315279:AAG68XqWMCmLJ5-or4-A0NckcTHRDi7A4uE"
+    token = ""
     tb = telebot.TeleBot(token)
     tb.send_message(chat_id="832022014", text="Hello creator!")
 

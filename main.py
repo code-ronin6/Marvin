@@ -18,7 +18,7 @@ print("Marvin is working...")
 def main():
     token = ""
     tb = telebot.TeleBot(token)
-    tb.send_message(chat_id="832022014", text="Hello creator!")
+    tb.send_message(chat_id="", text="Hello creator!")
 
 ##############################################################
     @tb.message_handler(commands=['start'])
